@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TP_JSF">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="commons-digester-1.8.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-digester-1.8/commons-digester-1.8">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.servlet.jsp.jstl-api-1.2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.servlet.jsp.jstl-api-1.2.1/javax.servlet.jsp.jstl-api-1.2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="geronimo-atinject_1.0_spec-1.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/geronimo-atinject_1.0_spec-1.0/geronimo-atinject_1.0_spec-1.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.servlet.jsp.jstl-1.2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.servlet.jsp.jstl-1.2.1/javax.servlet.jsp.jstl-1.2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-beanutils-1.9.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-beanutils-1.9.2/commons-beanutils-1.9.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.2.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-collections-3.2.2/commons-collections-3.2.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="myfaces-bundle-2.2.11.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/myfaces-bundle-2.2.11/myfaces-bundle-2.2.11">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1.1/commons-logging-1.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="TP_JSF"/>
+        <property name="java-output-path" value="/TP_JSF/build/classes"/>
+    </wb-module>
+</project-modules>
