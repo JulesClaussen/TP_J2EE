@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>TP_JSF</name>
+	<name>TP_SOAP_SERVLET</name>
 	<comment></comment>
 	<projects>
-		<project>commons-digester-1.8</project>
-		<project>javax.servlet.jsp.jstl-api-1.2.1</project>
-		<project>geronimo-atinject_1.0_spec-1.0</project>
-		<project>javax.servlet.jsp.jstl-1.2.1</project>
-		<project>commons-beanutils-1.9.2</project>
-		<project>commons-collections-3.2.2</project>
-		<project>commons-logging-1.1.1</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
